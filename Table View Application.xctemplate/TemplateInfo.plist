@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.moeykens.tableview</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.moeykens.mvc</string>
+		<string>com.apple.dt.unit.storyboardApplication</string>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses a tableview with no sections.</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>ViewController.h:comments</string>
+						<string>ViewController.h:imports:importCocoa</string>
+						<string>ViewController.h:interface(___FILEBASENAME___ : UIViewController)</string>
+						<string>ViewController.m:comments</string>
+						<string>ViewController.m:imports:importHeader:ViewController.h</string>
+						<string>ViewController.m:extension</string>
+						<string>ViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
+						<string>ViewController.m:implementation:methods:viewDidLoad:super</string>
+						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
+						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
+					</array>
+				</dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Main.storyboard</string>
+						<string>TableViewCell.swift</string>
+						<string>ViewController.swift</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>TableViewCell.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>View</string>
+			</array>
+			<key>Path</key>
+			<string>TableViewCell.swift</string>
+		</dict>
+		<key>ViewController.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>ViewController.swift</string>
+			<key>Group</key>
+			<array>
+				<string>Controller</string>
+			</array>
+		</dict>
+		<key>Main.storyboard</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>View</string>
+			</array>
+			<key>Path</key>
+			<string>Main.storyboard</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
