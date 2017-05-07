@@ -6,7 +6,7 @@ Simply put these folders into this location:
 Macintosh HD > Users > [Username] > Library > Developer > Xcode > Templates > Custom
 
 # Notes:
- * You may have to create the "Custom" folder first.
+ * You may have to create the "> Templates > Custom" folder first.
  * Be sure to install the MVC Application.xctemplate too. Some of the templates require this template.
  * Only available for the Swift language.
 
