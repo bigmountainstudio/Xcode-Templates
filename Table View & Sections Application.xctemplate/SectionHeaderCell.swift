@@ -7,7 +7,7 @@ class SectionHeaderCell: UITableViewCell {
     @IBOutlet weak var sectionSubtitleLabel: UILabel!
 
     func setup(model: SectionModel) {
-        sectionTitleLabel.text = model.sectionSubtitle
+        sectionTitleLabel.text = model.sectionTitle
         sectionSubtitleLabel.text = model.sectionSubtitle
     }
 }
