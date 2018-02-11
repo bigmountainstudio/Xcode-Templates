@@ -6,7 +6,8 @@ Simply put these folders into this location:
 Macintosh HD > Users > [Username] > Library > Developer > Xcode > Templates > Custom
 
 # Notes:
- * You may have to show the Library folder. In Finder, select your user folder (Macintosh HD > Users > [Username]) and then bring up View Options with COMMAND + J. Then check "Show Library Folder".
+ * You may have to show the Library folder. In Finder, select your user folder (Macintosh HD > Users > [Username]) and then bring up View Options with COMMAND + J. Then check "Show Library Folder". If that option isn't available, look below:
+ * Since Sierra you can now use `COMMAND + SHIFT + .` to show hidden files. This will reveal the Library folder.
  * You may have to create the "> Templates > Custom" folder first.
  * Be sure to install the MVC Application.xctemplate too. Some of the templates require this template.
  * Only available for the Swift language.
